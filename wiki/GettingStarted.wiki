@@ -26,7 +26,7 @@ Then two steps to initialize:
 {{{
 $ cd Emergence
 $ python3.3 manage.py syncdb
-$ python3.3 manage_py load_all_biotools
+$ python3.3 manage.py load_all_biotools
 }}}
 
 Finally, you'll need to start your task manager (Celery worker) in another terminal:
